@@ -1,0 +1,183 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  color: 000;
+  font-size: 16px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 50px;
+  margin-bottom:  58px;
+}
+
+ul, li {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+/*header*/
+.header {
+  background: url('../img/65824.jpg') no-repeat center top / cover;
+  padding: 50px;
+  opacity: 95%;
+}
+/*CLOSE*/
+
+/*header -> container*/
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+/*CLOSE*/
+
+/*header -> container -> nav*/
+.nav {
+  display: flex;
+  /*padding-top: 57px;*/
+  /*padding: 30px;*/
+  align-items: center;
+}
+/*CLOSE*/
+
+
+/*header -> container -> a and .tel*/
+header a {
+  color: #fff;
+}
+
+.tel {
+  font-size: 19px;
+  text-decoration: none;
+  /*margin-left: auto;*/
+  letter-spacing: 0.1em;
+  margin-left: 500px;
+  /* margin-right: 11px; */
+}
+/*CLOSE*/
+
+/*header -> container -> nav -> menu*/
+.menu {
+  display: flex;
+  /*padding: 50px;*/
+}
+
+.menu li a {
+  text-transform: uppercase;
+  font-size: 15px;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  transition: 0.3s ease;
+
+}
+
+a:hover {
+  color: #B04B1F;
+  /*background-color: #947B16;*/
+}
+
+.menu li {
+  margin-right: 40px;
+}
+/*CLOSE*/
+
+/*header -> container -> mainText*/
+.mainText {
+  text-transform: uppercase;
+  margin-top: 150px;
+}
+
+.mainText p {
+  font-size: 30px;
+  letter-spacing: 0.1em;
+  color: #5EBDB4;
+}
+
+.mainText h1 {
+  font-size: 100px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  letter-spacing:  0.02em;
+  color: #fff;
+
+}
+
+/*header -> container -> mainText -> btn*/
+.btn {
+  /*background-color: brown;
+  opacity: transparent;*/
+  display: block;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  padding: 17px 47px;
+  border: 1px solid #fff;
+  width: 238px;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+.btn:hover {
+  background: #fff;
+}
+/*CLOSE*/
+
+/*section*/
+section {
+  padding-top: 113px;
+}
+/*CLOSE*/
+
+/*section -> container -> description*/
+.description {
+  display: flex;
+  justify-content: space-between;
+}
+
+.description p {
+  font-weight: 400;
+  text-align: justify;
+  line-height: 1.62em;
+}
+/*CLOSE*/
+
+/*section -> container -> description -> desc-right,left*/
+.desc-right, .desc-left {
+  width: 567px;
+}
+/*CLOSE*/
+
+/*section -> container -> gallery*/
+.gallery {
+  margin-top: 67px;
+  display: flex;
+  justify-content: space-between;
+}
+/*CLOSE*/
+
+
+/*footer -> container -> footer-text*/
+.footer-text {
+  font-size: 15px;
+  font-family: sans-serif;
+  display: flex;
+}
+
+.footer-text p {
+  margin-right: 60px;
+}
+/*CLOSE*/
+
+/*
+<a href='https://www.freepik.com/psd/logo'>Logo psd created by rawpixel.com - www.freepik.com</a>
+*/
