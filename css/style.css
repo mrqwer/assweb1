@@ -31,6 +31,7 @@ ul, li {
 .header {
   background: url('../img/65824.jpg') no-repeat center top / cover;
   padding: 50px;
+  height: 1000px;
   opacity: 95%;
 }
 /*CLOSE*/
@@ -133,52 +134,49 @@ a:hover {
 }
 /*CLOSE*/
 
-/*section*/
+/*section about*/
 section {
   padding-top: 113px;
 }
-/*CLOSE*/
 
-/*section -> container -> description*/
-.description {
+#about {
+  margin-top: 10px;
+  background: url('../img/coffee.jpg') no-repeat center top / cover;
+}
+
+.main_info {
   display: flex;
   justify-content: space-between;
 }
 
-.description p {
-  font-weight: 400;
-  text-align: justify;
-  line-height: 1.62em;
+#about_h2 {
+  text-align: center;
+}
+
+/*#about_img {
+  margin-right: 15px;
+}*/
+
+.about_text p {
+  color: #EC6C9B;
+  background: url('../img/cafe4.jpg') no-repeat ;
 }
 /*CLOSE*/
 
-/*section -> container -> description -> desc-right,left*/
-.desc-right, .desc-left {
-  width: 567px;
-}
-/*CLOSE*/
-
-/*section -> container -> gallery*/
-.gallery {
-  margin-top: 67px;
+/*section menu*/
+.sec_menu {
   display: flex;
   justify-content: space-between;
 }
-/*CLOSE*/
 
-
-/*footer -> container -> footer-text*/
-.footer-text {
-  font-size: 15px;
-  font-family: sans-serif;
-  display: flex;
-}
-
-.footer-text p {
-  margin-right: 60px;
+.sec_menu h3 {
+  text-align: center;
 }
 /*CLOSE*/
 
-/*
-<a href='https://www.freepik.com/psd/logo'>Logo psd created by rawpixel.com - www.freepik.com</a>
-*/
+/*footer*/
+.footer {
+  background-color: blue;
+  opacity: 90%;
+}
+/*CLOSE*/
