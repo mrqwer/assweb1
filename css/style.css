@@ -31,7 +31,7 @@ ul, li {
 .header {
   background: url('../img/cafe8.jpg') no-repeat center top / cover;
   padding: 50px;
-  height: 1000px;
+  height: 750px;
   opacity: 95%;
 }
 /*CLOSE*/
@@ -107,8 +107,9 @@ a:hover {
 
 .mainText h1 {
   font-size: 100px;
-  margin-top: 50px;
+  /*margin-top: 50px;*/
   margin-bottom: 40px;
+  margin-right: 585px;
   letter-spacing:  0.02em;
   color: #fff;
   text-align: center;
@@ -128,6 +129,7 @@ a:hover {
   width: 238px;
   text-decoration: none;
   transition: all 0.5s ease;
+  margin-top: 145px;
 }
 .btn:hover {
   background: #fff;
