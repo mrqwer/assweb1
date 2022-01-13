@@ -2,7 +2,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: sans-serif;
-  color: 000;
+  color: #000;
   font-size: 16px;
 }
 
@@ -29,9 +29,9 @@ ul, li {
 
 /*header*/
 .header {
-  background: url('../img/cafe8.jpg') no-repeat center top / cover;
+  background: url('../img/header.jpg') no-repeat center top / cover;
   padding: 50px;
-  height: 750px;
+  height: 910px;
   opacity: 95%;
 }
 /*CLOSE*/
@@ -96,7 +96,7 @@ a:hover {
 /*header -> container -> mainText*/
 .mainText {
   text-transform: uppercase;
-  margin-top: 150px;
+  margin-top: 70px;
 }
 
 .mainText p {
@@ -107,7 +107,7 @@ a:hover {
 
 .mainText h1 {
   font-size: 100px;
-  /*margin-top: 50px;*/
+  margin-top: 50px;
   margin-bottom: 40px;
   margin-right: 585px;
   letter-spacing:  0.02em;
@@ -129,7 +129,8 @@ a:hover {
   width: 238px;
   text-decoration: none;
   transition: all 0.5s ease;
-  margin-top: 145px;
+  margin-top: 100px;
+  /*margin-bottom: 50px;*/
 }
 .btn:hover {
   background: #fff;
@@ -142,13 +143,22 @@ section {
 }
 
 #about {
-  margin-top: 10px;
-  background: url('../img/coffee.jpg') no-repeat center top / cover;
+  /*margin-top: 10px;*/
+  background: url('../img/background_menu.jpg') no-repeat center top / cover;
+  /*display: flex;*/
+  height: 1100px;
 }
+
 
 .main_info {
   display: flex;
   justify-content: space-between;
+  background-color: #660000;
+  height: 400px;
+}
+#about_cups {
+  margin-top: 165px;
+
 }
 
 #about_h2 {
@@ -161,7 +171,7 @@ section {
 
 .about_text p {
   color: #EC6C9B;
-  background: url('../img/cafe4.jpg') no-repeat ;
+  background: url('../img/cafe4.jpg') no-repeat;
 }
 /*CLOSE*/
 
@@ -182,3 +192,7 @@ section {
   opacity: 90%;
 }
 /*CLOSE*/
+
+/*#logo {*/
+/*  margin-left: 1000px;*/
+/*}*/
