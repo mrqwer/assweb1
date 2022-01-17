@@ -102,7 +102,7 @@ a:hover {
 .mainText p {
   font-size: 30px;
   letter-spacing: 0.1em;
-  color: #5EBDB4;
+  color: sandybrown;
 }
 
 .mainText h1 {
@@ -188,7 +188,7 @@ section {
 
 /*footer*/
 .footer {
-  background-color: blue;
+  background-color: saddlebrown;
   opacity: 90%;
 }
 /*CLOSE*/
