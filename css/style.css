@@ -235,7 +235,7 @@ section {
 }
 
 #about3 {
-  height: 700px;
+  height: 800px;
 }
 
 .main_info3 {
@@ -296,12 +296,29 @@ section {
   margin-top: 165px;
 }
 */
+.about_info {
+  display: flex;
+  justify-content: space-between;
+
+}
 #about_h2 {
   text-align: center;
 }
 
-.about_picture {
+/*.about_picture {
   margin: 35px;
+}*/
+
+.text_about_us {
+  margin: 60px 50px 60px;
+}
+
+.text_about_us p {
+  word-spacing: 0.3em;
+  letter-spacing: 0.1em;
+  font-family: italic;
+  font-size: 20px;
+  color: white;
 }
 
 /*#about_img {
@@ -340,14 +357,25 @@ section {
 /*footer*/
 .footer {
   background-color: saddlebrown;
-  height: 100px;
+  height: 150px;
   background: url('../img/footer.png') no-repeat center top / cover;
-  opacity: 90%;}
+  opacity: 90%;
+}
 
 .footer-text{
+  display: flex;
   font-size: medium;
+  color: white;
   font-family: Montserrat;
 }
+.footer-text p{
+  margin-right: 10px;
+}
+
+#fav_footer {
+  margin-left: 150px;
+}
+
 /*CLOSE*/
 
 /*#logo {*/
